@@ -22,7 +22,6 @@
         android:text="Zdravko"
         android:id="@+id/textView"
         android:layout_below="@+id/imageView"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
