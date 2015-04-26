@@ -9,7 +9,7 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
  * Created by Filip on 24.4.2015..
  */
 public class DatabaseHelper extends SQLiteAssetHelper {
-    private static String DATABASE_NAME="";
+    private static String DATABASE_NAME="Zdravko";
     private static int DATABASE_VERSION=1;
     private SQLiteDatabase mDataBase;
     //-------------------------TODO RIJEŠITI POZIV PREMA ourInstance, tj context
