@@ -17,7 +17,7 @@ public class SendEmailActivity extends ActionBarActivity {
     private String subject="Narudžba za pregled";
 
     // Za attachment
-    //TODO potrebna dorada
+    //TODO potrebna dorada za attachment, treba ubaciti path slike
     String pathname= Environment.getExternalStorageDirectory().getAbsolutePath();
     String filename="/MyFiles/mysdfile.txt";
     File file=new File(pathname, filename);
